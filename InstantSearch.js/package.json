@@ -1,4 +1,5 @@
 {
+  "name": "instantsearchjs-template",
   "private": true,
   "dependencies": {
     "browser-sync": "2.23.5"

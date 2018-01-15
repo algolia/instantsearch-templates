@@ -1,4 +1,5 @@
 {
+  "name": "react-instantsearch-template",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
