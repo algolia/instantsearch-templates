@@ -1,4 +1,4 @@
-# [InstantSearch.js](https://community.algolia.com/instantsearch.js/) template
+# [React InstantSearch](https://community.algolia.com/react-instantsearch/) template
 
 This template is live at CodeSandbox: https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/InstantSearch.js
 
