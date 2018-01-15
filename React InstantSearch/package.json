@@ -1,6 +1,15 @@
 {
   "name": "react-instantsearch-template",
   "version": "1.0.0",
+  "description": "Example template for React InstantSearch",
+  "keywords": [
+    "algolia",
+    "template",
+    "example",
+    "InstantSearch",
+    "React",
+    "react-instantsearch"
+  ],
   "private": true,
   "dependencies": {
     "react": "^16.2.0",

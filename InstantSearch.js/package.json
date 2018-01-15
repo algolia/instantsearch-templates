@@ -1,6 +1,15 @@
 {
   "name": "instantsearchjs-template",
   "version": "1.0.0",
+  "description": "Example template for InstantSearch.js",
+  "keywords": [
+    "algolia",
+    "template",
+    "example",
+    "InstantSearch",
+    "InstantSearch.js",
+    "instantsearch"
+  ],
   "private": true,
   "dependencies": {
     "browser-sync": "2.23.5"
