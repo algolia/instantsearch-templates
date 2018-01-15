@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "dependencies": {
+    "browser-sync": "2.23.5"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files 'index.html,search.css,search.js'"
+  }
+}
