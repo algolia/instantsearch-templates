@@ -11,7 +11,7 @@
     "instantsearch"
   ],
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "2.23.5"
   },
   "scripts": {
