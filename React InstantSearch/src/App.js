@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1><a href="https://community.algolia.com/react-instantsearch/">React InstantSearch</a> template</h1>
+        <h1><a href="https://community.algolia.com/react-instantsearch/">Algolia React InstantSearch</a> template</h1>
         <p>Fully working React InstantSearch template for creating test cases, examples and demos.</p>
         <p><b>Start editing the App.js file</b> and see changes happening!</p>
         <h2>Movies</h2>
