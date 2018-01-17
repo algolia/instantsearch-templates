@@ -12,24 +12,22 @@ em { background: cyan; font-style: normal }
   grid-template-columns: 20% 75%;
   grid-gap: 5%
 }
-.ais-hits {
+.ais-Hits__root {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 50% 50%;
   grid-gap: 5%;
+  margin-bottom: 1em;
 }
-.ais-hits--item {
+.ais-Hits__root div {
   background: #efefef;
   margin-bottom: .5em;
   padding: .5em;
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-height: 100px;
 }
-#searchBox {
+.ais-SearchBox__root {
   margin-bottom: 2em;
 }
-#pagination {
-  margin: 0 auto;
+.ais-Pagination__root {
   text-align:center;
+  margin: 0 auto;
 }

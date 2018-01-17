@@ -1,11 +1,12 @@
 {
   "name": "react-instantsearch-template",
   "version": "1.0.0",
-  "description": "Example template for React InstantSearch",
+  "description": "Example template for Algolia React InstantSearch",
   "keywords": [
     "algolia",
     "template",
     "example",
+    "fiddle",
     "InstantSearch",
     "React",
     "react-instantsearch"

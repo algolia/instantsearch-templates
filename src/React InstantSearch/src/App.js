@@ -6,21 +6,22 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1><a href="https://community.algolia.com/react-instantsearch/">Algolia React InstantSearch</a> template</h1>
+        <h1>Algolia <a href="https://community.algolia.com/react-instantsearch/">React InstantSearch</a> template</h1>
         <p>Fully working React InstantSearch template for creating test cases, examples and demos.</p>
         <p><b>Start editing the App.js file</b> and see changes happening!</p>
-        <h2>Movies</h2>
+        <p>Available on CodeSandbox at <a href="https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/React%20InstantSearch">https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/React%20InstantSearch</a></p>
+        <h2>Products</h2>
         <InstantSearch
           appId="latency"
           apiKey="6be0576ff61c053d5f9a3225e2a90f76"
-          indexName="movies"
+          indexName="insant_search"
           searchParameters={{
-            hitsPerPage: 9
+            hitsPerPage: 8
           }}
         >
           <SearchBox />
           <div className="twoColumns">
-            <RefinementList attributeName="genre" />
+            <RefinementList attributeName="brand" />
             <Hits hitComponent={Hit} />
           </div>
           <div style={{textAlign: 'center'}}><Pagination /></div>

@@ -1,0 +1,26 @@
+{
+  "name": "javascript-helper-template",
+  "version": "1.0.0",
+  "description": "Example template for Algolia JavaScript helper",
+  "keywords": [
+    "algolia",
+    "search",
+    "javascript",
+    "helper",
+    "template",
+    "example",
+    "fiddle"
+  ],
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-instantsearch": "4.4.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  }
+}

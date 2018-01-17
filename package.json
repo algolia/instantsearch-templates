@@ -1,0 +1,15 @@
+{
+  "name": "instantsearch-templates",
+  "version": "1.0.0",
+  "description": "Example templates for various InstantSearch projects",
+  "private": true,
+  "scripts": {
+    "isjs": "cd src/InstantSearch.js && yarn start",
+    "ris": "cd 'src/React InstantSearch' && yarn start",
+    "ais": "echo 'not implemented'",
+    "vis": "echo 'not implemented'",
+    "jsclient": "cd 'src/JavaScript client' && yarn start",
+    "jshelper": "cd 'src/JavaScript helper' && yarn start"
+  },
+  "workspaces": ["src/*"]
+}

@@ -1,20 +1,26 @@
 {
   "name": "instantsearchjs-template",
   "version": "1.0.0",
-  "description": "Example template for InstantSearch.js",
+  "description": "Example template for Algolia InstantSearch.js",
   "keywords": [
     "algolia",
+    "search",
     "template",
     "example",
+    "fiddle",
     "InstantSearch",
     "InstantSearch.js",
     "instantsearch"
   ],
   "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
   "devDependencies": {
-    "browser-sync": "2.23.5"
+    "react-scripts": "1.1.0"
   },
   "scripts": {
-    "start": "browser-sync start --server --files 'index.html,search.css,search.js'"
+    "start": "react-scripts start"
   }
 }
