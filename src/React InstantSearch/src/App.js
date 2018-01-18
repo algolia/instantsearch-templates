@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {InstantSearch, Hits, SearchBox, RefinementList, Pagination, Highlight} from 'react-instantsearch/dom';
+import {InstantSearch, Configure, Hits, SearchBox, RefinementList, Pagination, Highlight} from 'react-instantsearch/dom';
 import './App.css';
 
 class App extends Component {
@@ -15,10 +15,8 @@ class App extends Component {
           appId="latency"
           apiKey="6be0576ff61c053d5f9a3225e2a90f76"
           indexName="instant_search"
-          searchParameters={{
-            hitsPerPage: 8
-          }}
         >
+          <Configure hitsPerPage={8} />
           <SearchBox />
           <div className="twoColumns">
             <RefinementList attributeName="brand" />
