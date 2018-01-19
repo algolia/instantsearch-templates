@@ -9,7 +9,18 @@
     "ais": "echo 'not implemented'",
     "vis": "echo 'not implemented'",
     "jsclient": "cd 'src/JavaScript client' && yarn start",
-    "jshelper": "cd 'src/JavaScript helper' && yarn start"
+    "jshelper": "cd 'src/JavaScript helper' && yarn start",
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
-  "workspaces": ["src/*"]
+  "workspaces": ["src/*"],
+  "devDependencies": {
+    "babel-eslint": "8.2.1",
+    "eslint": "4.15.0",
+    "eslint-config-algolia": "13.0.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-prettier": "2.5.0",
+    "prettier": "1.10.2"
+  }
 }

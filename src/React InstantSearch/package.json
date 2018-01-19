@@ -18,6 +18,8 @@
     "react-instantsearch": "4.4.1"
   },
   "devDependencies": {
+    "eslint-plugin-react": "7.5.1",
+    "prop-types": "15.6.0",
     "react-scripts": "1.1.0"
   },
   "scripts": {
