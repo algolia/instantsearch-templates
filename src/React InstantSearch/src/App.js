@@ -65,7 +65,7 @@ function Hit(props) {
 }
 
 Hit.propTypes = {
-  hit: PropTypes.optionalArrayOf(PropTypes.object),
+  hit: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default App;
