@@ -15,7 +15,7 @@
   "dependencies": {
     "react": "16.2.0",
     "react-dom": "16.2.0",
-    "react-instantsearch": "4.4.2"
+    "react-instantsearch": "4.5.1"
   },
   "devDependencies": {
     "eslint-plugin-react": "7.6.1",
