@@ -12,7 +12,7 @@
   ],
   "private": true,
   "dependencies": {
-    "algoliasearch": "3.24.9"
+    "algoliasearch": "3.24.11"
   },
   "devDependencies": {
     "react-scripts": "1.1.1"
