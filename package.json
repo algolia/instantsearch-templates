@@ -7,7 +7,7 @@
     "isjs": "cd src/InstantSearch.js && yarn start",
     "ris": "cd 'src/React InstantSearch' && yarn start",
     "ais": "echo 'not implemented'",
-    "vis": "echo 'not implemented'",
+    "vis": "cd 'src/Vue InstantSearch' && yarn start",
     "jsclient": "cd 'src/JavaScript client' && yarn start",
     "jshelper": "cd 'src/JavaScript helper' && yarn start",
     "lint": "eslint .",
@@ -22,5 +22,8 @@
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-prettier": "2.6.0",
     "prettier": "1.10.2"
+  },
+  "engines": {
+    "node": "^9.4.0"
   }
 }
