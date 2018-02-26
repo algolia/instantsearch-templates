@@ -42,7 +42,7 @@ If the repository is updated, the online examples will be updated too, very hand
 Here are the CodeSandbox links for all projects:
 - [InstantSearch.js](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/InstantSearch.js)
 - [React InstantSearch](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/React%20InstantSearch)
-- [Angular InstantSearch](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Angular%20InstantSearch) (TODO)
+- [Angular InstantSearch](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Angular%20InstantSearch)
 - [Vue InstantSearch](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Vue%20InstantSearch)
 - [JavaScript client](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/JavaScript%20client)
 - [JavaScript helper](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/JavaScript%20helper)
@@ -50,7 +50,7 @@ Here are the CodeSandbox links for all projects:
 ## Running examples locally
 
 Requirements:
-- Node.js >= v9.4.0, use nvm - [install instructions](https://github.com/creationix/nvm#install-script)
+- Node.js >= v9.6.1, use nvm - [install instructions](https://github.com/creationix/nvm#install-script)
 - Yarn >= v1.3.2 - [install instructions](https://yarnpkg.com/en/docs/install#alternatives-tab)
 
 ```
