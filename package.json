@@ -4,12 +4,12 @@
   "description": "Example templates for various InstantSearch projects",
   "private": true,
   "scripts": {
-    "isjs": "cd src/InstantSearch.js && yarn start",
-    "ris": "cd 'src/React InstantSearch' && yarn start",
-    "ais": "echo 'not implemented'",
-    "vis": "cd 'src/Vue InstantSearch' && yarn start",
-    "jsclient": "cd 'src/JavaScript client' && yarn start",
-    "jshelper": "cd 'src/JavaScript helper' && yarn start",
+    "isjs": "cd src/InstantSearch.js && npm start",
+    "ris": "cd 'src/React InstantSearch' && npm start",
+    "ais": "cd 'src/Angular InstantSearch' && npm start",
+    "vis": "cd 'src/Vue InstantSearch' && npm start",
+    "jsclient": "cd 'src/JavaScript client' && npm start",
+    "jshelper": "cd 'src/JavaScript helper' && npm start",
     "lint": "eslint .",
     "test": "npm run lint"
   },
@@ -24,6 +24,9 @@
     "prettier": "1.10.2"
   },
   "engines": {
-    "node": "^9.4.0"
+    "node": "^9.6.1"
+  },
+  "renovate": {
+    "extends": ["config:js-app", "algolia"]
   }
 }

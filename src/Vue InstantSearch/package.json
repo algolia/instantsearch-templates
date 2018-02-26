@@ -42,6 +42,9 @@
     "webpack-dev-server": "2.11.1"
   },
   "engines": {
-    "node": "^9.4.0"
+    "node": "^9.6.1"
+  },
+  "renovate": {
+    "extends": ["config:js-app", "algolia"]
   }
 }
