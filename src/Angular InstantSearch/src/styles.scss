@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'angular-instantsearch/bundles/instantsearch.min.css';
+@import 'angular-instantsearch/bundles/instantsearch-theme-algolia.min.css';
+body { font-family: helvetica, arial, sans-serif; }
+
+em { background: cyan; font-style: normal }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.twoColumns {
+  display: grid;
+  grid-template-columns: 20% 75%;
+  grid-gap: 5%
+}
+
+.ais-Results {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5%;
+  margin-bottom: 1em;
+}
+.ais-Results div {
+  background: #efefef;
+  margin-bottom: .5em;
+  padding: .5em;
+  min-height: 100px;
+}
+.ais-SearchBox {
+  margin-bottom: 2em;
+  max-width: 33%;
+}
+.ais-Pagination {
+  text-align:center;
+  margin: 0 auto;
+}

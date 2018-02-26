@@ -7,7 +7,7 @@ vue init webpack-simple
 ```
 
 ## Requirements
-- Node.js >= v9.4.0, use nvm - [install instructions](https://github.com/creationix/nvm#install-script)
+- Node.js >= v9.6.1, use nvm - [install instructions](https://github.com/creationix/nvm#install-script)
 
 ## Build Setup
 
