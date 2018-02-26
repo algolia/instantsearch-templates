@@ -21,14 +21,6 @@
       "styles": [
         "styles.scss"
       ],
-      "stylePreprocessorOptions": {
-        "includePaths": [
-          "./node_modules",
-          "../node_modules",
-          "node_modules",
-          "../../node_modules"
-        ]
-      },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
