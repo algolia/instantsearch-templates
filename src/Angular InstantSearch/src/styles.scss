@@ -16,13 +16,13 @@ em { background: cyan; font-style: normal }
   grid-gap: 5%
 }
 
-.ais-Results {
+.ais-Hits {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 5%;
   margin-bottom: 1em;
 }
-.ais-Results div {
+.ais-Hits div {
   background: #efefef;
   margin-bottom: .5em;
   padding: .5em;
