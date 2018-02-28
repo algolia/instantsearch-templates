@@ -14,15 +14,18 @@
   ],
   "private": true,
   "devDependencies": {
-    "react-scripts": "1.1.1"
+    "parcel-bundler": "1.6.2"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "parcel index.html"
   },
   "engines": {
     "node": "^9.6.1"
   },
   "renovate": {
-    "extends": ["config:js-app", "algolia"]
+    "extends": [
+      "config:js-app",
+      "algolia"
+    ]
   }
 }
