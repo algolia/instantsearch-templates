@@ -486,9 +486,9 @@ amqplib@^0.5.2:
     readable-stream "1.x >=1.1.9"
     safe-buffer "^5.0.1"
 
-angular-instantsearch@1.0.0-beta.12:
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/angular-instantsearch/-/angular-instantsearch-1.0.0-beta.12.tgz#4004c2bf4a19259cf47f1688cf7db6225236a267"
+angular-instantsearch@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/angular-instantsearch/-/angular-instantsearch-1.0.1.tgz#fcbed0c51e6a91fc1b0b7b719db4892ec25ea52e"
   dependencies:
     algoliasearch "^3.24.7"
     algoliasearch-helper "^2.23.0"
