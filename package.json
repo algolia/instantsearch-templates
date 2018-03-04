@@ -15,7 +15,7 @@
   },
   "workspaces": ["src/*"],
   "devDependencies": {
-    "babel-eslint": "8.2.1",
+    "babel-eslint": "8.2.2",
     "eslint": "4.17.0",
     "eslint-config-algolia": "13.0.1",
     "eslint-config-prettier": "2.9.0",
