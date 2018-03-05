@@ -69,3 +69,4 @@ yarn jshelper # JavaScript helper
 ## Future of this repository
 
 We could use those templates in our upcoming create-is-app, thoughts?
+1
