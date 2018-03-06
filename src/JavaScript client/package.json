@@ -12,7 +12,7 @@
   ],
   "private": true,
   "dependencies": {
-    "algoliasearch": "3.24.11"
+    "algoliasearch": "3.24.12"
   },
   "devDependencies": {
     "parcel-bundler": "1.6.2"
