@@ -13,7 +13,7 @@
   ],
   "private": true,
   "dependencies": {
-    "algoliasearch": "3.24.11",
+    "algoliasearch": "3.24.12",
     "algoliasearch-helper": "2.24.0"
   },
   "devDependencies": {
