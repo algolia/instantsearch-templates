@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "vue": "2.5.13",
-    "vue-instantsearch": "1.4.0"
+    "vue-instantsearch": "1.5.0"
   },
   "browserslist": [
     "> 1%",
