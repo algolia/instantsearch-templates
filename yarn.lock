@@ -273,7 +273,11 @@
   dependencies:
     "@types/jasmine" "*"
 
-"@types/node@6.0.101", "@types/node@^6.0.46":
+"@types/node@6.0.102":
+  version "6.0.102"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.102.tgz#a6cf3b9843286b63eb362a8522bc382d96fe68d1"
+
+"@types/node@^6.0.46":
   version "6.0.101"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.101.tgz#0c5911cfb434af4a51c0a499931fe6423207d921"
 
