@@ -44,7 +44,7 @@ class App extends Component {
           <Configure hitsPerPage={8} />
           <SearchBox />
           <div className="twoColumns">
-            <RefinementList attributeName="brand" />
+            <RefinementList attribute="brand" />
             <Hits hitComponent={Hit} />
           </div>
           <div style={{ textAlign: 'center' }}>
@@ -59,7 +59,7 @@ class App extends Component {
 function Hit(props) {
   return (
     <div>
-      <Highlight attributeName="name" hit={props.hit} />
+      <Highlight attribute="name" hit={props.hit} />
     </div>
   );
 }
