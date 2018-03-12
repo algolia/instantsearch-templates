@@ -19,7 +19,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "vue": "2.5.13",
+    "vue": "2.5.15",
     "vue-instantsearch": "1.5.0"
   },
   "browserslist": [
