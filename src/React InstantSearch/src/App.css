@@ -1,6 +1,11 @@
-body { font-family: helvetica, arial, sans-serif; }
+body {
+  font-family: helvetica, arial, sans-serif;
+}
 
-em { background: cyan; font-style: normal }
+em {
+  background: cyan;
+  font-style: normal;
+}
 
 .container {
   max-width: 1140px;
@@ -10,24 +15,31 @@ em { background: cyan; font-style: normal }
 .twoColumns {
   display: grid;
   grid-template-columns: 20% 75%;
-  grid-gap: 5%
+  grid-gap: 5%;
 }
-.ais-Hits__root {
+
+.ais-Hits-list {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 5%;
+  margin: 0;
   margin-bottom: 1em;
 }
-.ais-Hits__root div {
+
+.ais-Hits-item {
   background: #efefef;
-  margin-bottom: .5em;
-  padding: .5em;
+  padding: 0.5em;
   min-height: 100px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 0.5em;
 }
-.ais-SearchBox__root {
+
+.ais-SearchBox {
   margin-bottom: 2em;
 }
-.ais-Pagination__root {
-  text-align:center;
+
+.ais-Pagination {
+  text-align: center;
   margin: 0 auto;
 }
