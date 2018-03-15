@@ -14,7 +14,7 @@ em { background: cyan; font-style: normal }
 }
 .ais-Hits__root {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 47.5% 47.5%;
   grid-gap: 5%;
   margin-bottom: 1em;
 }
