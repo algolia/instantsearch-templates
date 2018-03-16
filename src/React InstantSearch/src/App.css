@@ -20,7 +20,7 @@ em {
 
 .ais-Hits-list {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 47.5% 47.5%;
   grid-gap: 5%;
   margin: 0;
   margin-bottom: 1em;
