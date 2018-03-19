@@ -15,26 +15,28 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1>
-          Algolia{' '}
-          <a href="https://community.algolia.com/react-instantsearch/">
-            React InstantSearch
-          </a>{' '}
-          template
-        </h1>
-        <p>
-          Fully working React InstantSearch template for creating test cases,
-          examples and demos.
-        </p>
-        <p>
-          <b>Start editing the App.js file</b> and see changes happening!
-        </p>
-        <p>
-          Available on CodeSandbox at{' '}
-          <a href="https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/React%20InstantSearch">
-            https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/React%20InstantSearch
-          </a>
-        </p>
+        <details open>
+          <h1>
+            Algolia{' '}
+            <a href="https://community.algolia.com/react-instantsearch/">
+              React InstantSearch
+            </a>{' '}
+            template
+          </h1>
+          <p>
+            Fully working React InstantSearch template for creating test cases,
+            examples and demos.
+          </p>
+          <p>
+            <b>Start editing the App.js file</b> and see changes happening!
+          </p>
+          <p>
+            Available on CodeSandbox at{' '}
+            <a href="https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/React%20InstantSearch">
+              https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/React%20InstantSearch
+            </a>
+          </p>
+        </details>
         <h2>Products</h2>
         <InstantSearch
           appId="latency"
