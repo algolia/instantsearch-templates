@@ -1,7 +1,7 @@
 {
   "name": "autocompletejs-template",
   "version": "1.0.0",
-  "description": "Example template for Algolia Autocomplete.js",
+  "description": "Example template for Algolia autocomplete.js",
   "keywords": [
     "algolia",
     "search",
