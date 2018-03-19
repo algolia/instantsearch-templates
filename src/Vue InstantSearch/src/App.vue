@@ -1,25 +1,27 @@
 <template>
   <div class="container">
-    <h1>
-      Algolia
-      <a href="https://community.algolia.com/vue-instantsearch/">
-        Vue InstantSearch
-      </a>
-      template
-    </h1>
-    <p>
-      Fully working Vue InstantSearch template for creating test cases,
-      examples and demos.
-    </p>
-    <p>
-      <b>Start editing the App.vue file</b> and see changes happening!
-    </p>
-    <p>
-      Available on CodeSandbox at
-      <a href="https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Vue%20InstantSearch">
-        https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Vue%20InstantSearch
-      </a>
-    </p>
+    <details open>
+      <h1>
+        Algolia
+        <a href="https://community.algolia.com/vue-instantsearch/">
+          Vue InstantSearch
+        </a>
+        template
+      </h1>
+      <p>
+        Fully working Vue InstantSearch template for creating test cases,
+        examples and demos.
+      </p>
+      <p>
+        <b>Start editing the App.vue file</b> and see changes happening!
+      </p>
+      <p>
+        Available on CodeSandbox at
+        <a href="https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Vue%20InstantSearch">
+          https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Vue%20InstantSearch
+        </a>
+      </p>
+    </details>
     <h2>Products</h2>
     <ais-index
       app-id="latency"
@@ -50,9 +52,14 @@
 </template>
 
 <style>
-body { font-family: helvetica, arial, sans-serif; }
+body {
+  font-family: helvetica, arial, sans-serif;
+}
 
-em { background: cyan; font-style: normal }
+em {
+  background: cyan;
+  font-style: normal;
+}
 
 .container {
   max-width: 1140px;
@@ -62,7 +69,7 @@ em { background: cyan; font-style: normal }
 .twoColumns {
   display: grid;
   grid-template-columns: 20% 75%;
-  grid-gap: 5%
+  grid-gap: 5%;
 }
 .ais-Hits__root {
   display: grid;
@@ -72,15 +79,15 @@ em { background: cyan; font-style: normal }
 }
 .ais-Hits__root div {
   background: #efefef;
-  margin-bottom: .5em;
-  padding: .5em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
   min-height: 100px;
 }
 .ais-SearchBox__root {
   margin-bottom: 2em;
 }
 .ais-Pagination__root {
-  text-align:center;
+  text-align: center;
   margin: 0 auto;
 }
 </style>
