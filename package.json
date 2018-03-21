@@ -8,6 +8,7 @@
     "ris": "cd 'src/React InstantSearch' && npm start",
     "ais": "cd 'src/Angular InstantSearch' && npm start",
     "vis": "cd 'src/Vue InstantSearch' && npm start",
+    "ajs": "cd src/Autocomplete.js && npm start",
     "jsclient": "cd 'src/JavaScript client' && npm start",
     "jshelper": "cd 'src/JavaScript helper' && npm start",
     "lint": "eslint .",

@@ -44,6 +44,7 @@ Here are the CodeSandbox links for all projects:
 - [React InstantSearch](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/React%20InstantSearch)
 - [Angular InstantSearch](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Angular%20InstantSearch)
 - [Vue InstantSearch](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Vue%20InstantSearch)
+- [Autocomplete.js](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/Autocomplete.js)
 - [JavaScript client](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/JavaScript%20client)
 - [JavaScript helper](https://codesandbox.io/s/github/algolia/instantsearch-templates/tree/master/src/JavaScript%20helper)
 
@@ -62,6 +63,7 @@ yarn isjs # InstantSearch.js
 yarn ris # React InstantSearch
 yarn ais # Angular InstantSearch
 yarn vis # Vue InstantSearch
+yarn ajs # Autocomplete.js
 yarn jsclient # JavaScript client
 yarn jshelper # JavaScript helper
 ```
