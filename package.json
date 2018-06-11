@@ -28,7 +28,8 @@
     "prettier": "1.11.1"
   },
   "engines": {
-    "node": "^9.6.1"
+    "node": "^9.6.1",
+    "yarn": "^1.7.0"
   },
   "renovate": {
     "extends": [
