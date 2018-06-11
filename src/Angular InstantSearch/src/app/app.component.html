@@ -1,7 +1,7 @@
 <h2>
   Products
 </h2>
-<ng-ais-instantsearch
+<ais-instantsearch
   [config]="{
     apiKey: '6be0576ff61c053d5f9a3225e2a90f76',
     appId: 'latency',
@@ -12,17 +12,17 @@
   }"
 >
   <div id="searchBox">
-    <ng-ais-search-box></ng-ais-search-box>
+    <ais-search-box></ais-search-box>
   </div>
   <div class="twoColumns">
-    <ng-ais-refinement-list attribute="brand"></ng-ais-refinement-list>
-    <ng-ais-hits>
+    <ais-refinement-list attribute="brand"></ais-refinement-list>
+    <ais-hits>
       <ng-template let-hits="hits">
         <div *ngFor="let hit of hits">
-          <ng-ais-highlight attribute="name" [hit]="hit"></ng-ais-highlight>
+          <ais-highlight attribute="name" [hit]="hit"></ais-highlight>
         </div>
       </ng-template>
-    </ng-ais-hits>
+    </ais-hits>
   </div>
-  <ng-ais-pagination attribute="brand"></ng-ais-pagination>
-</ng-ais-instantsearch>
+  <ais-pagination attribute="brand"></ais-pagination>
+</ais-instantsearch>

@@ -14,7 +14,10 @@
     "lint": "eslint .",
     "test": "npm run lint"
   },
-  "workspaces": ["src/*"],
+  "workspaces": {
+    "packages": ["src/*"],
+    "nohoist": ["angular-instantsearch-template/**"]
+  },
   "devDependencies": {
     "babel-eslint": "8.2.2",
     "eslint": "4.19.1",
@@ -25,9 +28,14 @@
     "prettier": "1.11.1"
   },
   "engines": {
-    "node": "^9.6.1"
+    "node": "^9.6.1",
+    "yarn": "^1.7.0"
   },
   "renovate": {
-    "extends": ["config:js-app", "algolia"]
-  }
+    "extends": [
+      "config:js-app",
+      "algolia"
+    ]
+  },
+  "dependencies": {}
 }
