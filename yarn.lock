@@ -559,7 +559,7 @@ algoliasearch-helper@2.24.0, algoliasearch-helper@^2.21.1:
     qs "^6.2.1"
     util "^0.10.3"
 
-algoliasearch-helper@2.26.0, algoliasearch-helper@^2.26.0:
+algoliasearch-helper@2.26.0:
   version "2.26.0"
   resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-2.26.0.tgz#cb784b692a5aacf17062493cb0b94f6d60d30d0f"
   dependencies:
@@ -575,6 +575,15 @@ algoliasearch-helper@^2.21.0:
     events "^1.1.0"
     lodash "^4.13.1"
     qs "^6.2.1"
+    util "^0.10.3"
+
+algoliasearch-helper@^2.26.1:
+  version "2.26.1"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-2.26.1.tgz#75bd34f095e852d1bda483b8ebfb83c3c6e2852c"
+  dependencies:
+    events "^1.1.1"
+    lodash "^4.17.5"
+    qs "^6.5.1"
     util "^0.10.3"
 
 algoliasearch@3.26.0:
@@ -657,9 +666,9 @@ algoliasearch@^3.24.0:
     semver "^5.1.0"
     tunnel-agent "^0.6.0"
 
-algoliasearch@^3.27.0:
-  version "3.27.1"
-  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.27.1.tgz#e1af42b97dbf44a2dd3a8c907be99c0c34e48414"
+algoliasearch@^3.29.0:
+  version "3.29.0"
+  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.29.0.tgz#d04021a5450be55ce314b928bba4a38723399bd8"
   dependencies:
     agentkeepalive "^2.2.0"
     debug "^2.6.8"
@@ -693,15 +702,15 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-angular-instantsearch@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/angular-instantsearch/-/angular-instantsearch-2.0.1.tgz#97fe56adf7a1d4caa97b4ee80bf61ab29bd8f384"
+angular-instantsearch@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/angular-instantsearch/-/angular-instantsearch-2.0.2.tgz#64d7dba7c2d899ab58b3160eb50a34960063d977"
   dependencies:
-    algoliasearch "^3.27.0"
-    algoliasearch-helper "^2.26.0"
+    algoliasearch "^3.29.0"
+    algoliasearch-helper "^2.26.1"
     instantsearch.css "^7.0.0"
     instantsearch.js "^2.8.0"
-    lodash-es "^4.17.4"
+    lodash "4.17.10"
     nouislider "^10.0.0"
     querystring-es3 "^0.2.1"
     tslib "^1.7.1"
@@ -6401,10 +6410,6 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash-es@^4.17.4:
-  version "4.17.5"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.5.tgz#9fc6e737b1c4d151d8f9cae2247305d552ce748f"
-
 lodash._reinterpolate@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -6465,6 +6470,10 @@ lodash.uniq@^4.5.0:
 lodash@3.x, lodash@^3.8.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+
+lodash@4.17.10:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
 lodash@4.17.5, lodash@^4.0.0, lodash@^4.17.5, lodash@^4.5.0, lodash@~4.17.4:
   version "4.17.5"
