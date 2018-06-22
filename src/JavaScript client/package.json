@@ -22,8 +22,5 @@
   },
   "engines": {
     "node": "^9.6.1"
-  },
-  "renovate": {
-    "extends": ["config:js-app", "algolia"]
   }
 }
