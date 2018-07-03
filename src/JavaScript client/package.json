@@ -15,7 +15,7 @@
     "algoliasearch": "3.26.0"
   },
   "devDependencies": {
-    "parcel-bundler": "1.9.3"
+    "parcel-bundler": "1.9.4"
   },
   "scripts": {
     "start": "parcel index.html"
