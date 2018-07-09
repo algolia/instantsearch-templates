@@ -13,8 +13,8 @@
   ],
   "private": true,
   "dependencies": {
-    "react": "16.3.0",
-    "react-dom": "16.3.0",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
     "react-instantsearch": "5.2.0"
   },
   "devDependencies": {
