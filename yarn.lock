@@ -566,22 +566,13 @@ algoliasearch-helper@2.26.0:
     qs "^6.5.1"
     util "^0.10.3"
 
-algoliasearch-helper@2.26.1, algoliasearch-helper@^2.26.1:
+algoliasearch-helper@2.26.1, algoliasearch-helper@^2.26.0, algoliasearch-helper@^2.26.1:
   version "2.26.1"
   resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-2.26.1.tgz#75bd34f095e852d1bda483b8ebfb83c3c6e2852c"
   dependencies:
     events "^1.1.1"
     lodash "^4.17.5"
     qs "^6.5.1"
-    util "^0.10.3"
-
-algoliasearch-helper@^2.21.0:
-  version "2.23.2"
-  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-2.23.2.tgz#8a45db4338cf7d54ade4a54d704bef7559e13a6a"
-  dependencies:
-    events "^1.1.0"
-    lodash "^4.13.1"
-    qs "^6.2.1"
     util "^0.10.3"
 
 algoliasearch-helper@^2.21.1:
@@ -613,7 +604,7 @@ algoliasearch@3.27.0:
     semver "^5.1.0"
     tunnel-agent "^0.6.0"
 
-algoliasearch@3.29.0, algoliasearch@^3.29.0:
+algoliasearch@3.29.0, algoliasearch@^3.27.1, algoliasearch@^3.29.0:
   version "3.29.0"
   resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.29.0.tgz#d04021a5450be55ce314b928bba4a38723399bd8"
   dependencies:
@@ -636,26 +627,6 @@ algoliasearch@3.29.0, algoliasearch@^3.29.0:
 algoliasearch@^3.18.1:
   version "3.24.11"
   resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.24.11.tgz#82bb5fd5dd2cc70c993f5500fa54d9f91c62f11b"
-  dependencies:
-    agentkeepalive "^2.2.0"
-    debug "^2.6.8"
-    envify "^4.0.0"
-    es6-promise "^4.1.0"
-    events "^1.1.0"
-    foreach "^2.0.5"
-    global "^4.3.2"
-    inherits "^2.0.1"
-    isarray "^2.0.1"
-    load-script "^1.0.0"
-    object-keys "^1.0.11"
-    querystring-es3 "^0.2.1"
-    reduce "^1.0.1"
-    semver "^5.1.0"
-    tunnel-agent "^0.6.0"
-
-algoliasearch@^3.24.0:
-  version "3.24.9"
-  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.24.9.tgz#19063470efe5b6779ec081394b1f7aa400438273"
   dependencies:
     agentkeepalive "^2.2.0"
     debug "^2.6.8"
@@ -8528,15 +8499,39 @@ react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
 
-react-instantsearch@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/react-instantsearch/-/react-instantsearch-5.0.1.tgz#318673600a019a03c09b94b00868911a3179bae3"
+react-instantsearch-core@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/react-instantsearch-core/-/react-instantsearch-core-5.2.0.tgz#2340b72f1c3770838104b68369c35d3babbdd378"
   dependencies:
-    algoliasearch "^3.24.0"
-    algoliasearch-helper "^2.21.0"
+    algoliasearch-helper "^2.26.0"
+    lodash "^4.17.4"
+    prop-types "^15.5.10"
+
+react-instantsearch-dom@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/react-instantsearch-dom/-/react-instantsearch-dom-5.2.0.tgz#255ff61b959da86f5b81984d1ec8f850301ea721"
+  dependencies:
+    algoliasearch "^3.27.1"
+    algoliasearch-helper "^2.26.0"
     classnames "^2.2.5"
     lodash "^4.17.4"
     prop-types "^15.5.10"
+    react-instantsearch-core "^5.2.0"
+
+react-instantsearch-native@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/react-instantsearch-native/-/react-instantsearch-native-5.2.0.tgz#389117dd79647c947844b0cb191f642a6c31bb23"
+  dependencies:
+    algoliasearch "^3.27.1"
+    react-instantsearch-core "^5.2.0"
+
+react-instantsearch@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/react-instantsearch/-/react-instantsearch-5.2.0.tgz#4062d6abd1664519a411f4b6445aabe5167d9810"
+  dependencies:
+    react-instantsearch-core "^5.2.0"
+    react-instantsearch-dom "^5.2.0"
+    react-instantsearch-native "^5.2.0"
 
 react-scripts@1.1.4:
   version "1.1.4"
