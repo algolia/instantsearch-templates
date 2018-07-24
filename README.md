@@ -1,3 +1,10 @@
+> ⚠️ **DEPRECATED**
+>
+> This repository has been replaced by **[Create InstantSearch App](https://github.com/algolia/create-instantsearch-app)**.
+> This is a command-line tool to bootstrap InstantSearch applications and that creates [templates usable on CodeSandbox](https://github.com/algolia/create-instantsearch-app#previews).
+>
+> Find all templates in the [`templates` branch](https://github.com/algolia/create-instantsearch-app/tree/templates).
+
 # InstantSearch templates
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -8,7 +15,6 @@
 - [Goal](#goal)
 - [CodeSandbox links](#codesandbox-links)
 - [Running examples locally](#running-examples-locally)
-- [Future of this repository](#future-of-this-repository)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -67,7 +73,3 @@ yarn ajs # Autocomplete.js
 yarn jsclient # JavaScript client
 yarn jshelper # JavaScript helper
 ```
-
-## Future of this repository
-
-We could use those templates in our upcoming create-is-app, thoughts?
